@@ -176,14 +176,21 @@ a {
   border: 1px solid #6e6b74;
   border-radius: 3px;
   display: inline-block;
-
   font-size: 20px;
   font-weight: 700;
+}
+.btn:hover {
+  background-color: #2C2641;
+  color: #ffffff;
 }
 .btn-secondary {
   border-color: #ffffff;
   color: #ffffff;
   text-transform: uppercase;
+}
+.btn-secondary:hover {
+  background-color: #ffffff;
+  color: #2C2641;
 }
 
 .padding {
@@ -213,6 +220,12 @@ a {
   color: #6e6b74;
   text-transform: uppercase;
   font-weight: 700;
+}
+.nav a:hover {
+  color: #2C2641;
+}
+.nav .btn:hover {
+  color: #ffffff;
 }
 
 /* Hero */
@@ -305,6 +318,9 @@ a {
   color: #6e6b74;
   margin-left: 32px;
   font-size: 24px;
+}
+.footer a:hover {
+  color: #2C2641;
 }
 .footer-nav {
   text-align: center;
